@@ -40,49 +40,57 @@ The system is deployed and fully operational. Below are the functional views of 
 
 ### 1. NCCT Administrator Apex Dashboard
 Cross-institute governance aggregating training performance, courses, certificates issued, and attendance rates across member institutes (`inst_a`, `inst_b`, `inst_c`).
-![NCCT Administrator Dashboard](screenshots/01_ncct_admin_dashboard.jpeg)
+![NCCT Administrator Dashboard]<img width="1600" height="801" alt="WhatsApp Image 2026-09-20 at 17 39 16 (2)" src="https://github.com/user-attachments/assets/bd9b2e6e-a42f-434e-a27c-1e5bf56f6bdb" />
+
 
 ---
 
 ### 2. Training ERP — Trainee Management & Registration
 Institute-level trainee directory displaying profile details, tagged competencies, and batch registration forms with tenant isolation.
-![Training ERP - Trainees Management](screenshots/02_trainees_erp.jpeg)
+![Training ERP - Trainees Management]<img width="1600" height="806" alt="WhatsApp Image 2026-09-20 at 17 39 16 (1)" src="https://github.com/user-attachments/assets/fc821ef3-85eb-47bf-b99e-1d3701b348c3" />
+
 
 ---
 
 ### 3. Smart LMS — Multilingual & Offline-Ready Courses
 Curriculum catalog supporting multi-language delivery (English, Hindi, Marathi) with duration tracking and `offlineCapable` caching flags for remote learners.
-![Smart LMS - Course Management](screenshots/03_lms_courses.jpeg)
+![Smart LMS - Course Management]<img width="1600" height="805" alt="WhatsApp Image 2026-09-20 at 17 39 16" src="https://github.com/user-attachments/assets/4acd8b49-4a34-45fb-9df8-064b81cf72e0" />
+
 
 ---
 
 ### 4. Edge Attendance Module (FaceID / QR / Manual)
 Simulates edge terminal event logging (Raspberry Pi). Processes facial landmarks on-device with liveness detection; zero raw biometric images are transmitted or stored.
-![Edge Attendance Terminal](screenshots/04_edge_attendance.jpeg)
+![Edge Attendance Terminal]
+<img width="700" height="1600" alt="image" src="https://github.com/user-attachments/assets/5264b14a-5a53-4f1d-8c45-76a173cbc318" />
+<img width="1600" height="811" alt="WhatsApp Image 2026-09-20 at 17 39 15 (1)" src="https://github.com/user-attachments/assets/ca08a3c6-d23a-480d-8d06-19a86d39a7c2" />
+
 
 ---
 
 ### 5. Digital Skill Passport & Public QR Verification
 Issues tamper-proof certificates with embedded cryptographic verification URLs, allowing employers to verify credentials without authentication.
-![Digital Skill Passport](screenshots/05_digital_skill_passport.jpeg)
+![Digital Skill Passport]<img width="1600" height="807" alt="WhatsApp Image 2026-09-20 at 17 39 15" src="https://github.com/user-attachments/assets/3556194b-b7ca-4312-b78e-4b41a9907a91" />
+
 
 ---
 
 ### 6. AI Career & Job Matching Engine
 Transparent weighted skill-overlap engine (`lib/matching.js`). Evaluates candidate skills against cooperative job vacancies, computes percentage match, and highlights skill gaps.
-![AI Career & Job Matching](screenshots/06_ai_job_matching.jpeg)
+![AI Career & Job Matching]<img width="1600" height="805" alt="WhatsApp Image 2026-09-20 at 17 39 14" src="https://github.com/user-attachments/assets/194f9ded-bb4b-4378-b681-f31c0f3009ce" />
+
 
 ---
 
 ### 7. Institutional Performance Analytics
 Analytics dashboard comparing student throughput, batch performance, and completion rates across cooperative institutes.
-![Institutional Performance Analytics](screenshots/07_institutional_analytics.jpeg)
+![Institutional Performance Analytics]<img width="1600" height="805" alt="WhatsApp Image 2026-09-20 at 17 39 13" src="https://github.com/user-attachments/assets/d7100742-3028-49c0-a9f0-62795dd82d27" />
 
 ---
 
 ### 8. NCCT AI Career Assistant (RAG Chatbot)
 Dedicated multilingual AI assistant powered by Retrieval-Augmented Generation (RAG) providing real-time guidance on NCCT training programs, VAMNICOM, 14 ICMs, and cooperative careers.
-![NCCT AI Assistant Chatbot](screenshots/08_ai_assistant_chatbot.jpeg)
+![NCCT AI Assistant Chatbot]<img width="1600" height="803" alt="WhatsApp Image 2026-09-20 at 17 39 17" src="https://github.com/user-attachments/assets/07887dba-6646-47fa-a1e0-e77b86058d0b" />
 
 ---
 

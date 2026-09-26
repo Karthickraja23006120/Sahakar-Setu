@@ -1,0 +1,25 @@
+{
+  "name": "sahakar-setu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sahakar Setu - Unified Training ERP, LMS, Digital Skill Passport, AI Job Matching & Analytics platform for NCCT (SIH 2026 prototype)",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "seed": "node scripts/seed.js",
+    "loadtest": "node loadtest/run.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.2.35",
+    "qrcode": "^1.5.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "autocannon": "^7.15.0"
+  }
+}

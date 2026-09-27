@@ -170,8 +170,7 @@ Dedicated multilingual AI assistant powered by Retrieval-Augmented Generation (R
 
 - **Offline Curriculum**: Textbooks, vocational training videos (H.264/H.265), and quizzes accessible without mobile data.
 - **Biometric Attendance**: Edge FaceID with liveness verification; stores attendance logs locally in SQLite and syncs upstream when connectivity returns.
-- **Power Autonomy**: Sized with a 12V LiFePO4 battery buffer delivering up to 48 hours of continuous operation without sunlight.
-
+  
 ---
 
 ## 📈 Feasibility, Viability & Compliance

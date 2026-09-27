@@ -29,8 +29,7 @@ An integrated, multi-tenant digital ecosystem combining:
 3. **Digital Skill Passport**: Verifiable digital credentials with tamper-proof QR verification ready for DigiLocker.
 4. **AI Career & Job Matching**: Transparent skill-overlap engine matching trainees to cooperative enterprises with skill-gap advisories.
 5. **Apex Analytics Dashboard**: Centralized tracking of institute capacity, attendance fidelity, certifications, and rural employment outcomes.
-6. **Solar-Powered Offline Wi-Fi Hub**: Edge hardware node (Raspberry Pi/ESP32) providing zero-data local Wi-Fi course streaming and FaceID attendance in off-grid rural areas.
-
+6. **Offline Attendance & Data Sync** — Stores attendance and learning transactions locally during connectivity failures and synchronizes them with the central system when connectivity is restored.
 ---
 
 ## 📸 Web Dashboard & Working Prototype Outputs

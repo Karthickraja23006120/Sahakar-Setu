@@ -13,7 +13,6 @@
 [![React](https://img.shields.io/badge/React-18.3-blue?style=for-the-badge&logo=react)](https://react.dev/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker)](https://www.docker.com/)
 [![Autocannon](https://img.shields.io/badge/Load_Tested-100_Conns_Zero_Drop-brightgreen?style=for-the-badge)](loadtest/RESULTS.md)
-[![Hardware](https://img.shields.io/badge/Hardware-Solar--Powered_Offline_Wi--Fi_Hub-orange?style=for-the-badge)](#-hardware-edge-node-solar-powered-offline-wi-fi-hub)
 [![DPDP Act 2023](https://img.shields.io/badge/Compliance-DPDP_Act_2023-blueviolet?style=for-the-badge)](#-feasibility-viability--compliance)
 
 ---

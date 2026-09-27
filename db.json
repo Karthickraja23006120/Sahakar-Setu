@@ -1,0 +1,209 @@
+{
+  "tenants": [
+    {
+      "id": "inst_a",
+      "name": "Institute A — Pune",
+      "code": "PUN01"
+    },
+    {
+      "id": "inst_b",
+      "name": "Institute B — Nashik",
+      "code": "NSK02"
+    },
+    {
+      "id": "inst_c",
+      "name": "Institute C — Nagpur",
+      "code": "NGP03"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_x0c3zz",
+      "tenantId": "inst_a",
+      "name": "NCCT Administrator",
+      "email": "ncct.admin@sahakarsetu.in",
+      "passwordHash": "$2a$10$L6w8NitpK.s1a6aWG2Wzu.urezX10u.9a/jnqCM04jGshUVPgWwhO",
+      "role": "ncct_admin",
+      "skills": {},
+      "createdAt": "2026-09-07T08:21:36.358Z"
+    },
+    {
+      "id": "usr_rgkc3s",
+      "tenantId": "inst_a",
+      "name": "Institute A Admin",
+      "email": "admin.a@sahakarsetu.in",
+      "passwordHash": "$2a$10$Z5fV5jgiA8xBnTkelgLGlOotsHQZY31fx9szMRkzHJokkkJJFCFYK",
+      "role": "admin",
+      "skills": {},
+      "createdAt": "2026-09-07T08:21:36.445Z"
+    },
+    {
+      "id": "usr_d26gys",
+      "tenantId": "inst_a",
+      "name": "Faculty — Institute A",
+      "email": "faculty.a@sahakarsetu.in",
+      "passwordHash": "$2a$10$otZxduu2DLsAY2r1wKS3Te3ztMFmyM4xCujUv4bsXOSmZCZell4r2",
+      "role": "faculty",
+      "skills": {},
+      "createdAt": "2026-09-07T08:21:36.527Z"
+    },
+    {
+      "id": "usr_lqoivd",
+      "tenantId": "inst_a",
+      "name": "Aarav Sharma",
+      "email": "trainee1@sahakarsetu.in",
+      "passwordHash": "$2a$10$.edtYe2L3fGnL59ARsRHSuWJu7TS1YWT..iQIg2Q9tt85sSjC/2RS",
+      "role": "trainee",
+      "skills": {
+        "python": 0.9,
+        "sql": 0.8,
+        "statistics": 0.6
+      },
+      "createdAt": "2026-09-07T08:21:36.606Z"
+    },
+    {
+      "id": "usr_u7sf2d",
+      "tenantId": "inst_a",
+      "name": "Priya Patil",
+      "email": "trainee2@sahakarsetu.in",
+      "passwordHash": "$2a$10$HQKjMUklLAuXHvm13mlE5eT//Lv2HX/d7fNyLivIRi/BL/dm83FuO",
+      "role": "trainee",
+      "skills": {
+        "excel": 0.9,
+        "communication": 0.8
+      },
+      "createdAt": "2026-09-07T08:21:36.692Z"
+    },
+    {
+      "id": "usr_gb8hmn",
+      "tenantId": "inst_a",
+      "name": "Rohan Deshmukh",
+      "email": "trainee3@sahakarsetu.in",
+      "passwordHash": "$2a$10$0jiw6Tmet1i6HZFPpARGGOfQaZWhA.rF89Rt3pkkvUHYt78IC.50W",
+      "role": "trainee",
+      "skills": {
+        "welding": 0.8,
+        "safety": 0.7
+      },
+      "createdAt": "2026-09-07T08:21:36.765Z"
+    },
+    {
+      "id": "usr_v56td9",
+      "tenantId": "inst_b",
+      "name": "Sneha Kulkarni",
+      "email": "trainee4@sahakarsetu.in",
+      "passwordHash": "$2a$10$dSD3QHHbnJUbcMruSduJou57q7f6E.uTq6EPdMhlrwWb7k.QDcEhu",
+      "role": "trainee",
+      "skills": {
+        "tally": 0.9,
+        "accounting": 0.8
+      },
+      "createdAt": "2026-09-07T08:21:36.855Z"
+    },
+    {
+      "id": "usr_1umpbn",
+      "tenantId": "inst_b",
+      "name": "Vikram Singh",
+      "email": "trainee5@sahakarsetu.in",
+      "passwordHash": "$2a$10$muzaVoazw/5FGITLZdmxl.OP0rdFqntOsorMoqzTaTbtFxdy1IKCa",
+      "role": "trainee",
+      "skills": {
+        "electrical": 0.85,
+        "safety": 0.6
+      },
+      "createdAt": "2026-09-07T08:21:36.946Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": "crs_4ppl9d",
+      "tenantId": "inst_a",
+      "title": "Data Analytics Foundations",
+      "language": "en",
+      "offlineCapable": true,
+      "durationHrs": 40,
+      "skillTags": [
+        "python",
+        "sql",
+        "statistics"
+      ],
+      "createdAt": "2026-09-07T08:21:36.946Z"
+    },
+    {
+      "id": "crs_u74eh0",
+      "tenantId": "inst_a",
+      "title": "Office Productivity & Excel",
+      "language": "hi",
+      "offlineCapable": true,
+      "durationHrs": 20,
+      "skillTags": [
+        "excel",
+        "communication"
+      ],
+      "createdAt": "2026-09-07T08:21:36.946Z"
+    },
+    {
+      "id": "crs_isdi5z",
+      "tenantId": "inst_b",
+      "title": "Cooperative Accounting with Tally",
+      "language": "mr",
+      "offlineCapable": true,
+      "durationHrs": 30,
+      "skillTags": [
+        "tally",
+        "accounting"
+      ],
+      "createdAt": "2026-09-07T08:21:36.946Z"
+    }
+  ],
+  "enrollments": [],
+  "attendance": [],
+  "certificates": [],
+  "jobs": [
+    {
+      "id": "job_qulcok",
+      "title": "Junior Data Analyst",
+      "employer": "AgroCoop Analytics Pvt Ltd",
+      "location": "Pune, MH",
+      "requiredSkills": {
+        "python": 0.9,
+        "sql": 0.8,
+        "statistics": 0.7,
+        "excel": 0.6,
+        "powerbi": 0.8
+      }
+    },
+    {
+      "id": "job_af69ho",
+      "title": "Office Assistant",
+      "employer": "District Cooperative Bank",
+      "location": "Nashik, MH",
+      "requiredSkills": {
+        "excel": 0.7,
+        "communication": 0.7,
+        "tally": 0.5
+      }
+    },
+    {
+      "id": "job_r66bo3",
+      "title": "Accounts Executive",
+      "employer": "Rural Credit Cooperative",
+      "location": "Nashik, MH",
+      "requiredSkills": {
+        "tally": 0.9,
+        "accounting": 0.85,
+        "communication": 0.5
+      }
+    },
+    {
+      "id": "job_47k3nk",
+      "title": "Electrical Maintenance Technician",
+      "employer": "Cooperative Sugar Mill",
+      "location": "Nagpur, MH",
+      "requiredSkills": {
+        "electrical": 0.8,
+        "safety": 0.8
+      }
+    }
+  ]
+}
